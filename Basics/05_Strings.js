@@ -31,3 +31,7 @@ const anotherString = gameName.slice(-8,4)
 const url ="https://amit.com/amit%20pandey"
 
 console.log(url.replace("%20" , "-"))
+
+console.log(url.includes('sachin'))
+
+console.log(gameName.split('-'));
